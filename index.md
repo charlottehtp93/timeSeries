@@ -2,11 +2,21 @@
 - Motivation and application:
 
   Reliability data modeling for performance/lifetime projection
+  
 - Major topics
 
   Hidden Markov Model (HMM), Kalman filer, TBA
-## Hidden Markov Model (HMM)
+  
+## Hidden Markov Model (HMM) - _Real system states are hidden_
 
+1. Viterbi algorithm
+  - **Given**: System dynamics (transition probabilities & emission probabilities) and a series of observations.
+  - **Determine**: Most probable state series.
+  
+2. Baum-Welch algorithm
+  - **Given**: A series of observations.
+  - **Determine**: System dynamics (transition probabilities & emission probabilities).
+  
 ```markdown
 Syntax highlighted code block
 
