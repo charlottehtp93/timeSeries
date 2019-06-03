@@ -3,6 +3,7 @@
 
   Reliability data modeling for performance/lifetime projection
 - Major topics
+
   Hidden Markov Model (HMM), Kalman filer, TBA
 ## Hidden Markov Model (HMM)
 
