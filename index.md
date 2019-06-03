@@ -5,18 +5,24 @@
   
 - Major topics
 
-  Hidden Markov Model (HMM), Kalman filer, TBA
+  Hidden Markov Model (HMM), Kalman Filter (KF), TBA.
   
-## Hidden Markov Model (HMM) - _Real system states are hidden_
+  Both HMM and KF assume that there is an observation layer and an unknown true-state layer.
+  
+## Hidden Markov Model (HMM) 
 
-1. Viterbi algorithm
-  - **Given**: System dynamics (transition probabilities & emission probabilities) and a series of observations.
+The system transitions from one state to the next with certain point-value probability (transition probability matrix). A real state is observed as a certain observation state with certain point-value probability (emission probability matrix).
+
+1. Viterbi algorithm (MLE)
+  - **Given**: System dynamics (transition matrix & emission probabilities) and a series of observations.
   - **Determine**: Most probable state series.
   
-2. Baum-Welch algorithm
+2. Baum-Welch algorithm (Expectation maximization)
   - **Given**: A series of observations.
-  - **Determine**: System dynamics (transition probabilities & emission probabilities).
-  
+  - **Determine**: System dynamics (transition matrix & emission probabilities).
+
+## Kalman filter
+
 ```markdown
 Syntax highlighted code block
 
