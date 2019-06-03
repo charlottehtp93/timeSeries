@@ -1,6 +1,7 @@
-# Notes on time series data processing
-- Motivation and application
-  `Reliability data modeling for performance/lifetime projection`
+# Notes on time series data processing tools
+- Motivation and application:
+
+  Reliability data modeling for performance/lifetime projection
 - Major topics
   Hidden Markov Model (HMM), Kalman filer, TBA
 ## Hidden Markov Model (HMM)
