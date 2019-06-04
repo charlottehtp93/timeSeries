@@ -20,7 +20,9 @@ The system transitions from one state to the next with certain point-value proba
 2. Baum-Welch algorithm (Expectation maximization)
   - **Given**: A series of observations.
   - **Determine**: System dynamics (transition matrix & emission probabilities).
-
+```
+Alternately optimize path and dynamics
+```
 ## Kalman filter
 
 ```markdown
